@@ -1,0 +1,11 @@
+.navbar-expand-lg.bg-body-tertiary {
+    background-color: rgb(110, 107, 107) !important;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav.nav-link.active {
+    color: rgb(182, 182, 219) !important;
+}
