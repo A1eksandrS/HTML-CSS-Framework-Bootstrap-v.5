@@ -20,3 +20,6 @@ body {
 .navbar-toggler {
     background-color: rgb(206, 190, 190) ;
 }
+.row .col-lg-4 {
+    margin-bottom: 25px;
+}
