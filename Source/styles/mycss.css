@@ -31,7 +31,18 @@ body {
 }
 
 .card {
+    color: aquamarine;
     background: linear-gradient(270deg, #030383, #000000 100%);
-    color: aqua;
+
 }
 
+.slide-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
