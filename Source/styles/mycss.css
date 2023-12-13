@@ -6,6 +6,10 @@ body {
     font-family: Michroma, serif;
 }
 
+p {
+    color: aquamarine;
+}
+
 .navbar-expand-lg.bg-body-tertiary {
     background-color: rgb(49, 47, 47) !important;
 }
@@ -51,15 +55,48 @@ body {
     color: aquamarine;
 }
 
+.call-anim {
+    animation: call-anim 2s linear 0s infinite normal forwards;
+}
+
+@keyframes call-anim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
 @media (max-width: 755px) {
     .carousel-indicators {
         display: none;
     }
 }
 
-footer {
+footer,
+.btn-outline-primary {
     background: linear-gradient(270deg, #030383, #000000 100%);
-    
+
 }
 
 .media-links {
