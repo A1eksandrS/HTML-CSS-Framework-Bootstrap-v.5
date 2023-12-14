@@ -33,3 +33,9 @@
     color: rgb(173, 195, 228);
     z-index: 2;
 }
+
+@media (max-width:870px) {
+    .bgvideo {
+        display: none;
+    }
+}
