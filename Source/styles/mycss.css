@@ -19,14 +19,15 @@ p {
 }
 
 .navbar-nav .nav-link.active {
-    color: rgb(6, 6, 252)!important;
+    color: rgb(6, 6, 252) !important;
 }
+
 .navbar-brand img {
     width: 40px;
 }
 
 .navbar-toggler {
-    background-color: rgb(206, 190, 190) ;
+    background-color: rgb(206, 190, 190);
 }
 
 .sidebar {
@@ -60,31 +61,32 @@ p {
 }
 
 @keyframes call-anim {
-	0%,
-	100% {
-		transform: translateX(0%);
-		transform-origin: 50% 50%;
-	}
 
-	15% {
-		transform: translateX(-30px) rotate(-6deg);
-	}
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
 
-	30% {
-		transform: translateX(15px) rotate(6deg);
-	}
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
 
-	45% {
-		transform: translateX(-15px) rotate(-3.6deg);
-	}
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
 
-	60% {
-		transform: translateX(9px) rotate(2.4deg);
-	}
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
 
-	75% {
-		transform: translateX(-6px) rotate(-1.2deg);
-	}
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
 }
 
 @media (max-width: 755px) {
