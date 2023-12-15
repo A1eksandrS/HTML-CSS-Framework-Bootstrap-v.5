@@ -125,11 +125,15 @@ p {
 footer,
 .btn-outline-primary {
     background: linear-gradient(270deg, #030383, #000000 100%);
-
 }
 
 .media-links {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info>a {
+    text-decoration: none;
+    color: aquamarine;
 }
