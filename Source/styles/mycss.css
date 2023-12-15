@@ -122,6 +122,11 @@ p {
     }
 }
 
+.button-a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
 footer,
 .btn-outline-primary {
     background: linear-gradient(270deg, #030383, #000000 100%);
@@ -132,7 +137,9 @@ footer,
     justify-content: center;
     align-items: center;
 }
-
+a:hover {
+    color: azure !important;
+}
 .info>a {
     text-decoration: none;
     color: aquamarine;
